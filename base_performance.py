@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from datasetsforecast.m4 import M4, M4Info
-from sktime.performance_metrics.forecasting import mean_absolute_error
+from sktime.performance_metrics.forecasting import mean_absolute_error, mean_absolute_scaled_error
 
 
 if __name__ == "__main__":
